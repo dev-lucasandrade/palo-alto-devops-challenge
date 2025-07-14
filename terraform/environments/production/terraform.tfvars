@@ -1,0 +1,10 @@
+aws_region         = "us-east-1"
+project_name       = "palo-alto-challenge"
+environment        = "production"
+vpc_cidr           = "10.2.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+container_image    = "nginxdemos/hello:latest"
+container_port     = 80
+desired_count      = 3
+instance_type      = "t3.medium"
+key_name           = ""
